@@ -1,0 +1,72 @@
+body{
+    margin: 0%;
+}
+
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(255, 0, 0);
+    position: fixed;
+    width: 100%;
+    top:0;
+  }
+  
+  .nav-element {
+    float: left;
+    font-size: 115%;
+  }
+  
+  .nav-element a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 50px;
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+
+  }
+  
+  .nav-element a:hover {
+    background-color: rgb(255, 255, 255);
+    color: red;
+    border-bottom: 2px solid red ;
+  }
+  
+i{
+  color: white;
+}
+
+.menu-izq{
+  display: block;
+  margin: 0;
+  padding: 0;
+  background-color: red;
+  font-family: 'Ubuntu', sans-serif;
+  list-style-type: none;
+  text-align: center;
+  width: 14%;
+  height: 100vh;
+  position: fixed;
+  margin-top: 3.72%;
+}
+
+.menu-izq .menu-element{
+  padding: 5%;
+}
+
+.menu-izq .menu-element a{
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  padding: 10%;
+}
+
+.menu-izq .menu-element a:hover{
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
