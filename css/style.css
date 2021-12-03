@@ -2,38 +2,14 @@ body{
     margin: 0%;
 }
 
+.header{
 
-.nav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(255, 0, 0);
-    position: fixed;
-    width: 100%;
-    top:0;
-  }
-  
-  .nav-element {
-    float: left;
-    font-size: 115%;
-  }
-  
-  .nav-element a{
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 50px;
-    text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  font-family: 'Ubuntu', sans-serif;
+  border-bottom: 5px solid black;
+  background-image: url(/img/fondo\ header.jpg);
+}
 
-  }
-  
-  .nav-element a:hover {
-    background-color: rgb(255, 255, 255);
-    color: red;
-    border-bottom: 2px solid red ;
-  }
   
 i{
   color: white;
@@ -48,9 +24,9 @@ i{
   list-style-type: none;
   text-align: center;
   width: 14%;
+  min-width: 200px;
   height: 100vh;
   position: fixed;
-  margin-top: 3.72%;
 }
 
 .menu-izq .menu-element{
@@ -70,3 +46,12 @@ i{
   background-color: rgb(255, 255, 255);
   color: red;
 }
+
+.conten-header{
+  margin-left: 3%;
+}
+
+.header img{
+  border-right: solid black 5px;
+}
+
