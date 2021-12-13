@@ -24,7 +24,7 @@ body {
 }
 
 .conten-header{
-  margin: auto;
+margin-left: 14%;
 }
 
 h1{
@@ -57,6 +57,7 @@ i{
   padding-bottom: 1%;
   height: 100vh;
   border-right: 5px solid black;
+  font-size: 120%;
 }
 
 .menu-izq .menu-element{
@@ -71,8 +72,8 @@ i{
   text-decoration: none;
   font-family: 'Ubuntu', sans-serif;
   padding: 10%;
-  padding-right: 30%;
-  padding-left: 30%;
+  padding-right: 20%;
+  padding-left: 20%;
 }
 
 .menu-izq .menu-element a:hover{
@@ -87,10 +88,10 @@ i{
 }
 
 .contenedor{
-  float: left;
   padding: 2%;
   font-size: 110%;
   text-align: center;
+  margin-left: 12%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -119,6 +120,24 @@ i{
     padding-right: 15%;
     padding-left: 15%;
   }
+
+  .menu-izq{display: none;}
+
+  .contenedor{
+    padding: 2%;
+    font-size: 110%;
+    text-align: center;
+    margin: 0%;
+  }
+
+  .header img{
+    display: none;
+  }
+
+  .conten-header{
+    margin: 0%;
+     }
+
 }
 
 @media only screen and (min-width: 768px) {
@@ -155,4 +174,21 @@ i{
   .col-m-11 {width: 91.66%;}
   .col-m-12 {width: 100%;}
 
+  .menu-izq{display: none;}
+
+  .contenedor{
+    padding: 2%;
+    font-size: 110%;
+    text-align: center;
+    margin: 0%;
+  }
+
+  .header img{
+    display: none;
+  }
+
+  .conten-header{
+   margin: 0%;
+    }
+  
 }
