@@ -15,23 +15,96 @@
   <h1>Comandos de windows</h1>
   <h2>En esta página web encontraras informacion de varios comandos de windows</h2>
   </div>
+  <img class="img2" src="img/santjosep-lletres.jpg" alt="logoSJO2" width="190px" height="190px">
 </div>
 <ul class="menu-izq">
-  <li class="menu-element" ><a href="">Comando 1</a></li>
-  <li class="menu-element"><a href="">Comando 2</a></li>
-  <li class="menu-element"><a href="">Comando 3</a></li>
-  <li class="menu-element"><a href="">Comando 4</a></li>
-  <li class="menu-element"><a href="">Comando 5</a></li>
-  <li class="menu-element"><a href="">Comando 6</a></li>
-  <li class="menu-element"><a href="">Comando 7</a></li>
-  <li class="menu-element"><a href="">Comando 8</a></li>
-  <li class="menu-element"><a href="">Comando 9</a></li>
+  <li class="menu-element" ><a href="#" onclick="show('ver');">VER</a>
+  <li class="menu-element"><a href="#" onclick="show('cls');">CLS</a></li>
+  <li class="menu-element"><a href="#" onclick="show('time');">TIME</a></li>
+  <li class="menu-element"><a href="#" onclick="show('date');">DATE</a></li>
+  <li class="menu-element"><a href="#" onclick="show('cd');">CD</a></li>
+  <li class="menu-element"><a href="#" onclick="show('md');">MD</a></li>
+  <li class="menu-element"><a href="#" onclick="show('dir');">DIR</a></li>
+  <li class="menu-element"><a href="#" onclick="show('help');">HELP</a></li>
+  <li class="menu-element"><a href="#" onclick="show('move');">MOVE</a></li>
 </ul>
-<div class="contenedor col-10 col-s-12">
-<h1>VER</h1>
-<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet quasi dolor, inventore dicta odit rem vitae alias esse quo. Cupiditate animi, fugiat quae consequatur accusantium quo officia officiis dolorum amet?</p>
-<img src="img/VER.PNG" alt="">
+<div id="ver" class="ver col-10 col-s-12" style="display: block;">
+  <h1>VER</h1>
+  <p>El comando ver nos muestra en pantalla la versión actual del sistema operativo</p>
+  <img class="foto_central"src="img/VER.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <P>ver</P>
 </div>
- 
+<div id="cls" class="cls col-10 col-s-12">
+  <h1>CLS</h1>
+  <p>El comando cls nos permite borrar la pantalla dentro del símbolo de sistema</p>
+  <img class="foto_central" src="img/CLS.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <p>cls</p>
+  </div>
+<div id="time" class="time col-10 col-s-12">
+  <h1>TIME</h1>
+  <p>El comando time nos permite visualziar la fecha del sistema y si deseamos podemos cambiarla</p>
+  <img class="foto_central" src="img/TIME.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <p>TIME [/T | <"hora">]</p>
+</div>
+<div id="date" class="date col-10 col-s-12">
+  <h1>DATE</h1>
+  <p>El comando date nos permite ver la fecha del sistema y si deseamos podemos cambiarla</p>
+  <img class="foto_central" src="img/DATE.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <p>DATE [/T | <"fecha">]</p>
+</div>
+<div id="cd" class="cd col-10 col-s-12">
+  <h1>CD</h1>
+  <p>Muestra el nombre del directorio actual o cambia el directorio actual. Si se usa solo con una letra de unidad cd muestra los nombres del directorio actual en la unidad especificada. Si se usa sin parámetros, cd muestra la unidad y el directorio actuales.</p>
+  <img class="foto_central" src="img/CD.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <p>cd [/d] [<"drive>"":][<"path>"]
+  <br>
+  cd [..]
+  <br>
+  chdir [/d] [<"drive">:][<"path>""]
+  <br> chdir [..]</p>
+</div>
+<div id="md" class="md col-10 col-s-12">
+  <h1>MD</h1>
+  <p>Crea un directorio o un subdirectorio.</p>
+  <img class="foto_central" src="img/MD.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <p>md [<"drive">:]<"path"></"path"></p>
+</div>
+<div id="dir" class="dir col-10 col-s-12">
+  <h1>DIR</h1>
+  <p>Muestra una lista de los archivos y subdirectorios de un directorio.</p>
+  <img class="foto_central" src="img/DIR.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <p>dir [<"drive">:][<"path">][<"filename">] [...] [/p] [/q] [/w] [/d] [/a[[:]<"attributes">]][/o[[:]<"sortorder">]] [/t[[:]<"timefield">]] [/s] [/b] [/l] [/n] [/x] [/c] [/4] [/r]</p>
+</div>
+<div id="help" class="help col-10 col-s-12">
+  <h1>HELP</h1>
+  <p>Proporciona información de ayuda para los comandos de Windows.</p>
+  <img class="foto_central" src="img/HELP.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <p> HELP [comando]</p>
+</div>
+<div id="move" class="move col-10 col-s-12">
+  <h1>MOVE</h1>
+  <p>Mueve archivos y cambia el nombre a archivos y directorios.</p>
+  <img class="foto_central" src="img/MOVE.PNG" alt="">
+  <h2>SINTAXIS</h2>
+  <p>Mover uno o más archivos:<br>
+    MOVE [/Y | /-Y] [unidad:][ruta]nombrearchivo1[,...] destino
+    <br>
+    Cambiar el nombre a un directorio:
+    MOVE [/Y | /-Y] [unidad:][ruta]nombredirectorio1 nombredirectorio2
+    [unidad:][ruta]nombrearchivo1 Especifica la ubicación y el nombre del
+    archivo o archivos que quieres mover.</p>
+</div>
+<footer>
+  <p>Web diseñada por Alejandro Salmeron Estudiante de FPGS. Todos los derechos reservados <img src="img/copy.png" alt="" width="10px" height="10px"> </p>
+</footer>
 </body>
+<script src="script.js"> </script>
 </html>
